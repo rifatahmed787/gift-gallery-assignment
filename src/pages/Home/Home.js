@@ -4,6 +4,7 @@ import Banner from "./Banner/Banner";
 import Category from "./Category/Category";
 import Discount from "./Discount/Discount";
 import Testimonial from "./Testimonial/Testimonial";
+import Connect from "./Connect/Connect";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <Category />
       <Discount />
       <Testimonial />
+      <Connect />
     </div>
   );
 };
