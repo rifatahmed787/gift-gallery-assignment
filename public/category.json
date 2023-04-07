@@ -1,0 +1,26 @@
+[
+    {
+    "id":1,
+    "name":"Birthday Gift",
+    "img":"https://i.ibb.co/yyNbmJc/collection2.webp",
+    "category_id":"birthday"
+    },
+      {
+    "id":2,
+    "name":"Wedding Gift",
+    "img":"https://i.ibb.co/Cv0RbG5/collection3-750x.webp",
+    "category_id":"wedding"
+    },
+      {
+    "id":3,
+    "name":"Anniversary Gift",
+    "img":"https://i.ibb.co/yyNbmJc/collection2.webp",
+    "category_id":"anniversary"
+    },
+      {
+    "id":4,
+    "name":"Valentine Gift",
+    "img":"https://i.ibb.co/QfPXQV4/valentine-removebg-preview.png",
+    "category_id":"valentine"
+    }
+    ]
