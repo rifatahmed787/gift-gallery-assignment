@@ -5,14 +5,14 @@ import { Icon } from "@iconify/react";
 const Footer = () => {
   return (
     <div>
-      <footer className="relative bg-[#E2E8F0] pt-8 pb-6">
+      <footer className="relative bg-[#E2E8F0] pt-8 pb-6 dark:bg-black dark:text-white">
         <div className="container mx-auto px-4">
           <div className="flex flex-wrap text-left lg:text-left">
             <div className="w-full lg:w-6/12 px-4">
-              <h4 className="text-3xl fonat-semibold text-blueGray-700">
+              <h4 className="text-3xl fonat-semibold pb-3">
                 <img src={png} alt="" className="w-36" />
               </h4>
-              <h5 className="text-lg mt-0 mb-2 text-blueGray-600">
+              <h5 className="text-lg mt-0 mb-2">
                 You can shop now for your ideas gift shop items at Gift Gallery
                 to find many types of gift sets. Get wholesale ideas gift shop
                 items that are presentable enough.

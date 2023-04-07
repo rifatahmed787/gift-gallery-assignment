@@ -52,6 +52,15 @@ const Navbar = () => {
           About us
         </Link>
       </li>
+      <li
+        className={`font-semibold text-black dark:text-white ${
+          location.pathname === "/contact" ? "text-orange-400" : ""
+        }`}
+      >
+        <Link title="About us" to="/contact">
+          Contact
+        </Link>
+      </li>
     </>
   );
 

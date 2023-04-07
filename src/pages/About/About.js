@@ -18,8 +18,8 @@ const About = () => {
             <img className="h-10 w-10" src={png} alt="Logo" />
             <h3 className="my-3 text-3xl font-semibold">Product</h3>
             <div className="space-y-1 leading-tight">
-              <p>Similique quas ea veniam</p>
-              <p>Tempore quasi porro</p>
+              <p>We value quality</p>
+              <p>and craftsmanship</p>
               <p>Blanditiis aut mollitia ex</p>
             </div>
           </div>
@@ -27,8 +27,8 @@ const About = () => {
             <img className="h-10 w-10" src={png} alt="Logo" />
             <h3 className="my-3 text-3xl font-semibold">Product</h3>
             <div className="space-y-1 leading-tight">
-              <p>Similique quas ea veniam</p>
-              <p>Tempore quasi porro</p>
+              <p>We believe in sustainability</p>
+              <p>and ethical practices</p>
               <p>Blanditiis aut mollitia ex</p>
             </div>
           </div>
@@ -36,8 +36,8 @@ const About = () => {
             <img className="h-10 w-10" src={png} alt="Logo" />
             <h3 className="my-3 text-3xl font-semibold">Product</h3>
             <div className="space-y-1 leading-tight">
-              <p>Similique quas ea veniam</p>
-              <p>Tempore quasi porro</p>
+              <p>We are committed to </p>
+              <p>customer satisfaction</p>
               <p>Blanditiis aut mollitia ex</p>
             </div>
           </div>
@@ -45,8 +45,8 @@ const About = () => {
             <img className="h-10 w-10" src={png} alt="Logo" />
             <h3 className="my-3 text-3xl font-semibold">Product</h3>
             <div className="space-y-1 leading-tight">
-              <p>Similique quas ea veniam</p>
-              <p>Tempore quasi porro</p>
+              <p>We believe in giving </p>
+              <p>back to our community</p>
               <p>Blanditiis aut mollitia ex</p>
             </div>
           </div>
