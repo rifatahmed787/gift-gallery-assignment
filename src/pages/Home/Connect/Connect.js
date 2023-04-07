@@ -5,7 +5,9 @@ const Connect = () => {
     <div className="flex justify-center items-center rounded-lg my-5 container mx-auto h-80 bg-[#F7DCDC] dark:bg-black dark:border dark:text-white">
       <div>
         <div className="mt-5">
-          <h1 className="text-4xl font-serif font-bold">LET'S STAY IN TOUCH</h1>
+          <h1 className="text-4xl font-serif font-bold animate-pulse">
+            LET'S STAY IN TOUCH
+          </h1>
           <p className="py-2">Get updates on sales, special and more</p>
         </div>
         <div>

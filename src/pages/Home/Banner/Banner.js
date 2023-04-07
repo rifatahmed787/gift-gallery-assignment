@@ -3,11 +3,18 @@ import img1 from "../../../assets/bannar/service1.avif";
 import img2 from "../../../assets/bannar/service2.avif";
 import img3 from "../../../assets/bannar/service3.avif";
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
+
 const Banner = () => {
   return (
     <div className="border-b-4 border-[#DFDFDF] border-dotted">
       <section className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1  my-20 text-center">
-        <div className="border-r-4 border-[#DFDFDF] border-dotted">
+        <div
+          className="border-r-4 border-[#DFDFDF] border-dotted"
+          data-aos="zoom-in"
+        >
           <img src={img1} alt="" className="mx-auto" />
           <p className="text-lg leading-5 py-4 text-black font-normal font-mono">
             Delivering quality gifts
@@ -16,7 +23,11 @@ const Banner = () => {
             information on its origins
           </p>
         </div>
-        <div className="border-r-4 border-[#DFDFDF] border-dotted">
+        <div
+          className="border-r-4 border-[#DFDFDF] border-dotted"
+          data-aos="zoom-in"
+          data-aos-duration="1000"
+        >
           <img src={img2} alt="" className="mx-auto" />
           <p className="text-lg leading-5 py-4 text-black font-normal font-mono">
             Gifts for all occasions
@@ -25,7 +36,7 @@ const Banner = () => {
             Variants and technical
           </p>
         </div>
-        <div className="">
+        <div data-aos="zoom-in" data-aos-duration="2000">
           <img src={img3} alt="" className="mx-auto" />
           <p className="text-lg leading-5 py-4 text-black font-normal font-mono">
             Great customer service

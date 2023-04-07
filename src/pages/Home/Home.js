@@ -5,6 +5,7 @@ import Category from "./Category/Category";
 import Discount from "./Discount/Discount";
 import Testimonial from "./Testimonial/Testimonial";
 import Connect from "./Connect/Connect";
+import Animation from "./Animation/Animation";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <Discount />
       <Testimonial />
       <Connect />
+      <Animation />
     </div>
   );
 };
