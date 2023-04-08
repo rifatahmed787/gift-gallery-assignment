@@ -22,7 +22,7 @@ export const router = createBrowserRouter([
         element: <Product />,
         loader: ({ params }) =>
           fetch(
-            `https://react-assignment-resale-products-server.vercel.app/products/${params.id}`
+            `https://react-internshala-assignment-raju-server.vercel.app/category/${params.id}`
           ),
       },
       {

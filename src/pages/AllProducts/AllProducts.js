@@ -65,7 +65,7 @@ const AllProducts = () => {
 
               <div className="py-3">
                 <button className="bg-orange-400 shadow-md hover:bg-orange-500 text-white font-bold rounded-full px-5 py-2">
-                  Book Now
+                  Buy Now
                 </button>
               </div>
             </div>
