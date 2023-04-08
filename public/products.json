@@ -1,106 +1,106 @@
 [
-    {
-      "id": 1,
-      "name": "Floral Bouquet",
-      "description": "A beautiful bouquet of fresh flowers",
-      "price": 25.99,
-      "image_url": "https://i.ibb.co/9wT5tFq/6-360x.webp",
-      "category_id":"birthday"
-    },
-    {
-      "id": 2,
-      "name": "Assorted Chocolates",
-      "description": "A box of delicious assorted chocolates",
-      "price": 19.99,
-      "image_url": "https://i.ibb.co/dtwhmzP/classic-warwick-40mm.jpg",
-      "category_id":"birthday"
-    },
-    {
-      "id": 3,
-      "name": "Teddy Bear",
-      "description": "A soft and cuddly teddy bear",
-      "price": 15.99,
-      "image_url": "https://i.ibb.co/pv6JWsj/salmon-twain-wristband.jpg",
-      "category_id":"birthday"
-    },
-    {
-      "id": 4,
-      "name": "Red Wine",
-      "description": "A bottle of delicious red wine",
-      "price": 29.99,
-      "image_url": "https://i.ibb.co/ssTZj48/c41-grey-chronograph-watch.jpg",
-      "category_id":"birthday"
-    },
-    {
-      "id": 5,
-      "name": "Gift Card",
-      "description": "A gift card to use at our store",
-      "price": 50.00,
-      "image_url": "https://i.ibb.co/9GwHpy0/5-360x.webp",
-      "category_id":"wedding"
-    },
-    {
-      "id": 6,
-      "name": "Gourmet Cheese",
-      "description": "A selection of delicious gourmet cheeses",
-      "price": 39.99,
-      "image_url": "https://i.ibb.co/XX3ZW98/1-45b0b06f-bd2f-49ac-a070-cc9bcb825b3d-360x.webp",
-     "category_id":"wedding"
-    },
-    {
-      "id": 7,
-      "name": "Artisanal Soap Set",
-      "description": "A set of handmade artisanal soaps",
-      "price": 22.99,
-      "image_url": "https://i.ibb.co/t2LnJcv/24-360x.webp",
-      "category_id":"wedding"
-    },
-    {
-      "id": 8,
-      "name": "Crystal Vase",
-      "description": "A beautiful crystal vase",
-      "price": 89.99,
-      "image_url": "https://i.ibb.co/HgQ7j70/12-360x.webp",
-      "category_id":"anniversary"
-    },
-    {
-      "id": 9,
-      "name": "Scented Candle",
-      "description": "A luxury scented candle",
-      "price": 29.99,
-      "image_url": "https://i.ibb.co/8c0W058/4-22eb69b2-bae5-4214-9170-6ba766dfaf5d-360x.webp",
-      "category_id":"anniversary"
-    },
-    {
-      "id": 10,
-      "name": "Gourmet Coffee",
-      "description": "A bag of delicious gourmet coffee beans",
-      "price": 16.99,
-      "image_url": "https://i.ibb.co/SyJNZjh/17-360x.webp",
-      "category_id":"anniversary"
-    },
-    {
-      "id": 11,
-      "name": "Leather Wallet",
-      "description": "A high-quality leather wallet",
-      "price": 49.99,
-      "image_url": "https://i.ibb.co/0tjPxs3/19-360x.webp",
-      "category_id":"valentine"
-    },
-    {
-      "id": 12,
-      "name": "Leather Wallet",
-      "description": "A high-quality leather wallet",
-      "price": 49.99,
-      "image_url": "https://i.ibb.co/BCXx9DP/7-c8e17b0f-91cf-44e8-8de1-8928c5ddf3b8-360x.webp",
-      "category_id":"valentine"
+  {
+    "id": 1,
+    "name": "Teddy Bear",
+    "description": "A soft and cuddly teddy bear for the baby.",
+    "price": 25.99,
+    "image_url": "https://i.ibb.co/9wT5tFq/6-360x.webp",
+    "category_id": "birthday"
   },
   {
-      "id": 12,
-      "name": "Leather Wallet",
-      "description": "A high-quality leather wallet",
-      "price": 49.99,
-      "image_url": "https://i.ibb.co/PjFgM0w/13-360x.webp",
-      "category_id":"valentine"
+    "id": 2,
+    "name": "Assorted Watch",
+    "description": "A box of assorted watch for the men",
+    "price": 19.99,
+    "image_url": "https://i.ibb.co/dtwhmzP/classic-warwick-40mm.jpg",
+    "category_id": "birthday"
+  },
+  {
+    "id": 3,
+    "name": "Assorted Watch",
+    "description": "A beautiful watch",
+    "price": 15.99,
+    "image_url": "https://i.ibb.co/pv6JWsj/salmon-twain-wristband.jpg",
+    "category_id": "birthday"
+  },
+  {
+    "id": 4,
+    "name": "Assorted Watch",
+    "description": "A beautiful watch",
+    "price": 29.99,
+    "image_url": "https://i.ibb.co/ssTZj48/c41-grey-chronograph-watch.jpg",
+    "category_id": "birthday"
+  },
+  {
+    "id": 5,
+    "name": "Gift Card",
+    "description": "A gift card to use at our store",
+    "price": 50,
+    "image_url": "https://i.ibb.co/9GwHpy0/5-360x.webp",
+    "category_id": "wedding"
+  },
+  {
+    "id": 6,
+    "name": "Gourmet Mug",
+    "description": "A selection of Gourmet Mug",
+    "price": 39.99,
+    "image_url": "https://i.ibb.co/XX3ZW98/1-45b0b06f-bd2f-49ac-a070-cc9bcb825b3d-360x.webp",
+    "category_id": "wedding"
+  },
+  {
+    "id": 7,
+    "name": "Artisanal shoe",
+    "description": "A soft and cuddly shoe",
+    "price": 22.99,
+    "image_url": "https://i.ibb.co/t2LnJcv/24-360x.webp",
+    "category_id": "wedding"
+  },
+  {
+    "id": 8,
+    "name": "Teddy Bear",
+    "description": "A beautiful teddy bear",
+    "price": 89.99,
+    "image_url": "https://i.ibb.co/HgQ7j70/12-360x.webp",
+    "category_id": "anniversary"
+  },
+  {
+    "id": 9,
+    "name": "Scented Candle",
+    "description": "A luxury scented candle",
+    "price": 29.99,
+    "image_url": "https://i.ibb.co/8c0W058/4-22eb69b2-bae5-4214-9170-6ba766dfaf5d-360x.webp",
+    "category_id": "anniversary"
+  },
+  {
+    "id": 10,
+    "name": "Gourmet Ring",
+    "description": "A beautiful ring",
+    "price": 16.99,
+    "image_url": "https://i.ibb.co/SyJNZjh/17-360x.webp",
+    "category_id": "anniversary"
+  },
+  {
+    "id": 11,
+    "name": "Scented Candle",
+    "description": "A high-quality Scented Candle",
+    "price": 49.99,
+    "image_url": "https://i.ibb.co/0tjPxs3/19-360x.webp",
+    "category_id": "valentine"
+  },
+  {
+    "id": 12,
+    "name": "Flower Tob",
+    "description": "A high-quality flower tob. Very beautiful",
+    "price": 49.99,
+    "image_url": "https://i.ibb.co/BCXx9DP/7-c8e17b0f-91cf-44e8-8de1-8928c5ddf3b8-360x.webp",
+    "category_id": "valentine"
+  },
+  {
+    "id": 13,
+    "name": "Teddy Bear",
+    "description": "A high-quality Scented Candle",
+    "price": 49.99,
+    "image_url": "https://i.ibb.co/PjFgM0w/13-360x.webp",
+    "category_id": "valentine"
   }
-  ]
+]

@@ -1,7 +1,8 @@
+import { useQuery } from "@tanstack/react-query";
 import React from "react";
 
 const Product = () => {
-  return <div>hello</div>;
+  return <div></div>;
 };
 
 export default Product;

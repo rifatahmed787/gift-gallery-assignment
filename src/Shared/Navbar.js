@@ -35,11 +35,11 @@ const Navbar = () => {
       </li>
       <li
         className={`font-semibold text-black dark:text-white ${
-          location.pathname === "/shop" ? "text-orange-400" : ""
+          location.pathname === "/allproducts" ? "text-orange-400" : ""
         }`}
       >
-        <Link title="Shop" to="/shop">
-          Shop
+        <Link title="Products" to="/allproducts">
+          Products
         </Link>
       </li>
 
@@ -139,12 +139,7 @@ const Navbar = () => {
                       </button>
                     </div>
                   </div>
-                  {/* <label
-                    htmlFor="dashboard-drawer"
-                    className="btn drawer-button btn-xs ml-20 rounded-md lg:hidden dark:text-white"
-                  >
-                    Open drawer
-                  </label> */}
+
                   <nav>
                     <ul className="space-y-4 text-[#FFFFFF]">
                       {menuItems}

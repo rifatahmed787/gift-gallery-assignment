@@ -43,6 +43,7 @@ const Category = () => {
         <div
           className="grid lg:grid-cols-4 gap-7 justify-center"
           data-aos="flip-up"
+          data-aos-duration="1000"
         >
           {categories.map((category) => (
             <div key={category.id}>

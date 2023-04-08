@@ -5,6 +5,7 @@ import About from "../pages/About/About";
 import ErrorPage from "../pages/ErrorPage/ErrorPage";
 import Contact from "../pages/Contact/Contact";
 import Product from "../pages/CategoryProduct/Product";
+import AllProducts from "../pages/AllProducts/AllProducts";
 
 export const router = createBrowserRouter([
   {
@@ -19,7 +20,10 @@ export const router = createBrowserRouter([
       {
         path: "/product/:id",
         element: <Product />,
-        loader: ({ params }) => fetch(`products.json/${params.id}`),
+        loader: ({ params }) =>
+          fetch(
+            `https://react-assignment-resale-products-server.vercel.app/products/${params.id}`
+          ),
       },
       {
         path: "/about",
@@ -28,6 +32,10 @@ export const router = createBrowserRouter([
       {
         path: "/contact",
         element: <Contact />,
+      },
+      {
+        path: "allproducts",
+        element: <AllProducts />,
       },
     ],
   },

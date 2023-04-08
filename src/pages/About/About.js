@@ -11,7 +11,7 @@ const About = () => {
       <section className="m-4 md:m-8 dark:bg-gray-800 dark:text-gray-100">
         <div className="flex items-center justify-center mb-8">
           <img className="h-10 w-10" src={png} alt="Logo" />
-          <h1 className="text-4xl font-bold">About Gift Galley</h1>
+          <h1 className="text-4xl font-bold pl-2">About Gift Gallery</h1>
         </div>
         <div className="container mx-auto grid justify-center gap-4 sm:grid-cols-2 lg:grid-cols-3">
           <div className="flex flex-col items-center p-4">
