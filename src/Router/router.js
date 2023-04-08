@@ -6,6 +6,7 @@ import ErrorPage from "../pages/ErrorPage/ErrorPage";
 import Contact from "../pages/Contact/Contact";
 import Product from "../pages/CategoryProduct/Product";
 import AllProducts from "../pages/AllProducts/AllProducts";
+import BuyForm from "../pages/OrderPage/BuyForm";
 
 export const router = createBrowserRouter([
   {
@@ -34,8 +35,12 @@ export const router = createBrowserRouter([
         element: <Contact />,
       },
       {
-        path: "allproducts",
+        path: "/allproducts",
         element: <AllProducts />,
+      },
+      {
+        path: "/order",
+        element: <BuyForm />,
       },
     ],
   },
