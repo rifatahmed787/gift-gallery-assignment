@@ -13,6 +13,9 @@
 
 ### Technology Used in this project:
 * React JS
+* Node JS
+* Express JS
+* Mongoose JS
 * TailwindCSS
 
 
